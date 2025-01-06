@@ -1,0 +1,91 @@
+/* styles.css */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+#app {
+    max-width: 1200px;
+    margin: auto;
+    padding: 20px;
+}
+
+header {
+    background-color: #4CAF50;
+    color: white;
+    padding: 10px 0;
+    text-align: center;
+}
+
+#main-layout {
+    display: flex;
+    margin-top: 20px;
+}
+
+aside {
+    width: 25%;
+    background-color: #f4f4f4;
+    padding: 10px;
+}
+
+section {
+    width: 37.5%;
+    padding: 10px;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+}
+
+nav ul li {
+    margin: 10px 0;
+}
+
+nav ul li a {
+    color: #333;
+    text-decoration: none;
+}
+
+footer {
+    text-align: center;
+    margin-top: 20px;
+}
+
+#display ul {
+    list-style: none;
+    padding: 0;
+}
+
+#display ul li {
+    background-color: #e0e0e0;
+    margin: 10px 0;
+    padding: 10px;
+    border-radius: 5px;
+}
+
+#display ul li h3 {
+    margin: 0;
+    font-size: 1.2em;
+}
+
+#display ul li p {
+    margin: 5px 0;
+    font-size: 0.9em;
+}
+
+.edit-button, .delete-button {
+    margin-right: 5px;
+    cursor: pointer;
+    color: white;
+    background-color: #007BFF;
+    border: none;
+    padding: 5px 10px;
+    border-radius: 3px;
+}
+
+.delete-button {
+    background-color: #DC3545;
+}
